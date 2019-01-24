@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<!--
+    Name: Jennifer Wasik
+    Date Created: 1/9/19
+    Most recent revision: 1/24/19
+-->
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Contact Us</title>
+         <link rel="stylesheet" href="bootstrapfinal.css">
+       <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+       <style>
+            body {background-color: gainsboro}
+           
+        
+</style>  
+    </head> 
+    
+    <body>
+        <body>
+            <div>
+            <header>
+        <h1> CHEAP EATS! </h1>
+                </header>
+            
+           
+                <hr/>
+                
+                
+                <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+           <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="home.html"><span class="glyphicon glyphicon-home"> </span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="menu.html">Menu</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact Us</a>
+  </li>
+</ul>
+           
+                
+          </ul>
+      </div>      
+        </div>
+         <hr/>
+                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post"     
+           align="center">
+            <div class="form">
+                <div class="container">
+            <strong>Name:  </strong><input type="text" name="myTextInput" />
+            <br /> 
+                <br />
+            <strong>Email:  </strong><input type="text" name="myTextInput" /><br />
+                 <br />
+            <strong>Phone:  </strong><input type="text" name="myTextInput" /><br />
+                 <br />
+           
+               <strong>Reason for Inquiry:  </strong><select name="inquiry">
+                <option value="Catering">Catering</option>
+                <option value="Party">Private Party</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+                </select><br />
+                <br />
+             Additional Information:  <br /><textarea name="myTextInput" cols="20" rows="10"></textarea><br />
+                 <br />
+                
+         Have you been to the restaurant? 
+            <input type="radio" name="answer" value="NO" checked />No   
+            <input type="radio" name="answer" value="YES" />Yes<br />
+          <br />
+            Best days to contact you:<input type="checkbox" name="myChoices" value="M" unchecked/>M   
+            <input type="checkbox" name="myChoices" value="T" unchecked/>T   
+            <input type="checkbox" name="myChoices" value="W" unchecked/>W   
+            <input type="checkbox" name="myChoices" value="Th" unchecked/>Th   
+            <input type="checkbox" name="myChoices" value="F" unchecked/>F   
+          
+           <br />
+          <br />
+           	<input type="submit" name="submit" value="Send Request" >
+        
+                    </div>
+                    </div>
+             
+                </form>
+</div>
+        <footer>
+ <hr/>
+        <p> CHEAP EATS! &trade; </p>
+                <p>7776 Zanzibar Lane Maple Grove, MN 55311</p>
+                <p>763-516-6676</p>
+                <hr/>
+        </footer>
+            
+    </body>
+        <script src="bootstrap.js"></script>
+                <script type="text/javascript">
+        </script>
+    </body>
+        </html>
